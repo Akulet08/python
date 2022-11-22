@@ -1,0 +1,7 @@
+snno=int(input())
+name=input()
+gender=input()
+group=input()
+add=input()
+phno=int(input())
+print(snno,name,gender,group,add,phno)
