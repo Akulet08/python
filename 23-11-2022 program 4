@@ -1,0 +1,2 @@
+a=int(input())
+print('a is +ve') if a>0 else print('a is -ve')
