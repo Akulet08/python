@@ -1,0 +1,27 @@
+#1
+list=[1,5,4,2,7,8,6]
+N=int(input())
+if N in list:
+   print("yes")
+else:
+   print("no")
+
+
+#2
+list=[5,7,8,9]
+min=list[0]
+for i in list:
+    if i<min:
+        min=i
+print(min)
+
+
+#3
+list=[5,7,8,9,6,2]
+sum=0
+for i in list:
+    if i%2==0:
+       sum=sum+i
+print(sum)
+
+
