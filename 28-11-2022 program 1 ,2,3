@@ -1,0 +1,22 @@
+#1
+PIN=2908
+p=int(input('enter pin no'))
+if PIN==p:
+    print('continue transactions')
+else:
+    print('incorrect pin number, please try again')
+
+#2
+a=int(input())
+if a<100:
+    print('number is less than 100')
+else:
+    print('number is greater than 100')
+
+#3
+bal=10000
+credit=int(input())
+bal=bal+credit
+print('credited amount:',credit)
+print('Main balance:',bal)
+    
