@@ -1,0 +1,43 @@
+#1
+n=int(input())
+i=2
+cnt=0
+while (i<n):
+    factor=2
+    j=2
+    while (j<i):
+        if (i%j==0):
+            factor=factor+1
+            break
+        j=j+1
+    if (factor==2):
+        cnt=cnt+1
+    i=i+1
+print(cnt)
+
+
+#2
+n=int(input())
+i=1
+num=int(input())
+large=num
+small=num
+while i<n:
+    num=int(input())
+    if num>large:
+        large=num
+    if num<small:
+        small=num
+    i=i+1
+diff=large-small
+print(diff)
+        
+
+#3
+n=int(input())
+sum=0
+while n>0:
+    r=n%10
+    sum=sum+r
+    n=n//10
+print(sum)
