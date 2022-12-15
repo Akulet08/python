@@ -1,0 +1,40 @@
+#1
+n=int(input())
+l=list(map(int,input().split()))
+e=[]
+o=[]
+for i in range(n):
+    if l[i]%2==0:
+        e.append(l[i])
+    else:
+        o.append(l[i])
+e.extend(o)
+print(e)
+
+#2
+n=int(input())
+l=list(map(int,input().split()))
+e=[]
+o=[]
+for i in range(n):
+    if l[i]>=0:
+        e.append(l[i])
+    else:
+        o.append(l[i])
+e.extend(o)
+print(e)
+
+#3
+n=int(input())
+l=list(map(int,input().split()))
+k=int(input())
+check=0
+for i in range(n):
+    for j in range(i+1,n):
+        if l[i]-l[j]==k:
+            check=1
+            break
+if check==1:
+    print('yes')
+else:
+    print('no')
